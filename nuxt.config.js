@@ -5,7 +5,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'The Marketing Campaign Company - Experts in Digital Marketing and Public Relations',
+    title: 'The Marketing Campaign Company - Experts in Digital Marketing, Digital Solutions and Public Relations',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -29,7 +29,7 @@ module.exports = {
    */
   plugins: [
      { src: '~/plugins/uikit.js', ssr: false }
-  ], 
+  ],
   /*
    ** Modules
    */

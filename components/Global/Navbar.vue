@@ -7,7 +7,13 @@
       </nuxt-link>
     </div>
     <div class="uk-navbar-right">
-      <a class="uk-navbar-toggle tmcc-nav-toggle" href="#" uk-toggle="target: #OffCanvasMenu">
+      <div class="uk-navbar-item uk-visible@s">
+        <div>+44 (0) 1372 807189</div>
+      </div>
+      <div class="uk-navbar-item uk-visible@s">
+        <div><a href="mailto:info@themarketingcampaigncompany.co.uk">Email us</a></div>
+      </div>
+      <a class="uk-navbar-toggle tmcc-nav-toggle uk-hidden@s" href="#" uk-toggle="target: #OffCanvasMenu">
         <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Contact Us</span>
       </a>
     </div>
