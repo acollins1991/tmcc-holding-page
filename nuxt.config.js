@@ -8,7 +8,6 @@ module.exports = {
     title: 'The Marketing Campaign Company - Experts in Digital Marketing and Public Relations',
     meta: [
       { charset: 'utf-8' },
-      { name: 'robots', content: 'noindex, nofollow' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Experts in marketing strategy & planning, digital marketing, public relations, and communications' }
     ],
@@ -29,22 +28,14 @@ module.exports = {
    ** Plugins
    */
   plugins: [
-     // {src: '~/plugins/firstLoad.js', ssr: false},
-     { src: '~/plugins/uikit.js', ssr: false },
-     { src: '~/plugins/vue-content-placeholders.js', ssr: false }
-  ],
+     { src: '~/plugins/uikit.js', ssr: false }
+  ], 
   /*
    ** Modules
    */
   /*
   ** Build configuration
   */
-  mode: 'spa',
-  // environmental variables
-  env: {
-    cmsAPIBase: 'https://cms.themarketingcampaigncompany.co.uk/wp-json/wp/v2/',
-    contactFormAPIBase: 'https://cms.themarketingcampaigncompany.co.uk/wp-json/contactform/v1/post'
-  },
   build: {
     /*
     ** Run ESLint on save

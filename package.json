@@ -5,23 +5,19 @@
   "author": "acollins1991 <a.r.c_@hotmail.co.uk>",
   "private": true,
   "scripts": {
-    "dev": "nuxt --spa",
-    "build": "nuxt build --spa",
+    "dev": "nuxt",
+    "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "aos": "^2.3.0",
     "axios": "^0.18.0",
-    "masonry-layout": "^4.2.1",
-    "moment": "^2.22.2",
     "node-sass": "^4.9.0",
     "nuxt": "^1.0.0",
     "sass-loader": "^6.0.7",
-    "uikit": "^3.0.0-rc.2",
-    "vue-content-placeholders": "^0.2.1"
+    "uikit": "^3.0.0-rc.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

@@ -1,16 +1,25 @@
-<template lang="html">
-  <div id="OffCanvasMenu" uk-offcanvas>
-    <div class="uk-offcanvas-bar">
-      <button class="uk-offcanvas-close" type="button" uk-close></button>
-      <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-        <nuxt-link class="uk-offcanvas-close" tag="li" active-class="uk-active" exact to="/"><a>Home</a></nuxt-link>
-        <nuxt-link class="uk-offcanvas-close" tag="li" active-class="uk-active" exact to="/about"><a>About</a></nuxt-link>
-        <nuxt-link class="uk-offcanvas-close" tag="li" active-class="uk-active" exact to="/blog"><a>Blog</a></nuxt-link>
-        <nuxt-link class="uk-offcanvas-close" tag="li" active-class="uk-active" exact to="/services"><a>Services</a></nuxt-link>
-        <nuxt-link class="uk-offcanvas-close" tag="li" active-class="uk-active" exact to="/contact"><a>Contact</a></nuxt-link>
-      </ul>
-    </div>
+<template>
+<div id="OffCanvasMenu" uk-offcanvas="flip: true">
+  <div class="uk-offcanvas-bar">
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <p>+44 (0) 1372 807189</p>
+    <p>Email Us</p>
+    <form>
+      <div class="uk-margin">
+        <input class="uk-input" type="text" placeholder="Input">
+      </div>
+      <div class="uk-margin">
+        <input class="uk-input" type="text" placeholder="Input">
+      </div>
+      <div class="uk-margin">
+        <input class="uk-input" type="text" placeholder="Input">
+      </div>
+      <div class="uk-margin">
+        <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+      </div>
+    </form>
   </div>
+</div>
 </template>
 
 <script>
@@ -20,12 +29,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// Hack to make menu itmes close the menu on click, but need to unstyle the uk-off-canvas-close class
-li.uk-offcanvas-close {
-    position: unset;
-    z-index: unset;
-    top: unset;
-    right: unset;
-    padding: unset;
+#OffCanvasMenu {
+  font-size:16px;
 }
 </style>

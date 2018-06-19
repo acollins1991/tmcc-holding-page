@@ -6,6 +6,8 @@ $global-font-size: 18px;
 $global-color: #333333;
 $base-heading-font-family: 'Merriweather', san-serif;
 $base-heading-font-weight: 300;
+$heading-primary-line-height: 1.3;
+$heading-primary-line-height-l: 1.3;
 $base-blockquote-font-style: normal;
 // GLOBAL VARIABLE CHANGES RELATING TO UIKIT
 $global-primary-background: #e67e22;
@@ -17,37 +19,5 @@ $global-primary-background: #e67e22;
 /** Navbar **/
 $navbar-nav-item-height: 125px;
 $navbar-nav-item-padding-horizontal: 24px;
-@mixin hook-navbar-nav-item(){
-  position:relative;
-  &:after {
-    content: '';
-    width: 16px;
-    position: absolute;
-    left: 50%;
-    top:80px;
-    transform: translateX(-50%);
-  }
-}
-@mixin hook-navbar-nav-item-active() {
-  &:after {
-    border-bottom: solid #fd9f44 3px;
-  }
-}
 // Import UIkit.
 @import "../node_modules/uikit/src/scss/uikit.scss";
-// Page transitions
-// on first page load
-body {
-  transition: opacity 0.5s;
-}
-
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.75s;
-  transition-delay: 0.25s;
-}
-
-.page-enter,
-.page-leave-active {
-  opacity: 0;
-}
