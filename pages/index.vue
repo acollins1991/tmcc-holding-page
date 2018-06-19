@@ -11,8 +11,8 @@
   </div>
 
   <div class="uk-container uk-container-small">
-    <h2 class="uk-text-center uk-margin-large-top uk-margin-bottom">Some clients we have worked with</h2>
-    <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-large" uk-grid="masonry: true">
+    <h2 class="uk-text-center uk-margin-large-top uk-margin-large-bottom">Some clients we have worked with</h2>
+    <div class="uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-large" uk-grid="masonry: true">
       <div>
         <div class="uk-card uk-flex uk-flex-center uk-flex-middle">
           <img src="/images/clients/30-Euston-Square.jpg" alt="">
@@ -20,7 +20,7 @@
       </div>
       <div>
         <div class="uk-card uk-flex uk-flex-center uk-flex-middle">
-          <img src="/images/clients/682.png" alt="">
+          <img src="/images/clients/portlandplace.png" alt="">
         </div>
       </div>
       <div>
@@ -46,6 +46,31 @@
       <div>
         <div class="uk-card uk-flex uk-flex-center uk-flex-middle">
           <img src="/images/clients/Searcys.jpg" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-flex uk-flex-center uk-flex-middle">
+          <img src="/images/clients/WR-Berkley.jpg" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-flex uk-flex-center uk-flex-middle">
+          <img src="/images/clients/now-health.jpg" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-flex uk-flex-center uk-flex-middle">
+          <img src="/images/clients/markham.jpg" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-flex uk-flex-center uk-flex-middle">
+          <img src="/images/clients/medibroker.jpg" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-flex uk-flex-center uk-flex-middle">
+          <img src="/images/clients/platform7teen.jpg" alt="">
         </div>
       </div>
     </div>
