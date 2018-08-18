@@ -4,7 +4,7 @@
   <div class="uk-container uk-container-large">
     <div uk-grid>
       <div class="uk-width-4-5@m">
-        <h1 class="tmcc-heading">Experts in <u >Digital Marketing</u>, <u>Digital Solutions</u> and <u>Public Relations</u>, helping our clients grow their businesses</h1>
+        <h1 class="tmcc-heading">Experts in <u>Digital Marketing</u> <u>Digital Solutions</u> and <u>Public Relations</u>, helping our clients grow their businesses</h1>
         <p class="uk-lead">In fact, we're so good at building websites we're building one for ourselves. <strong>Coming soon!</strong></p>
       </div>
     </div>
