@@ -1,4 +1,4 @@
-# tmcc-v2
+# Holding page for TMCC built with Nuxt.js (archived for portfolio)
 
 > Nuxt.js project
 
